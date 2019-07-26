@@ -4,7 +4,7 @@ var tetris={
 	pg:null,//保存游戏容器div
 	shape:null,//保存正在下落的主角图形
 	nextShape:null,//保存下一个备胎图形
-	interval:400,//保存图形下落的时间间隔 速度	
+	interval:100,//保存图形下落的时间间隔 速度	
 	timer:null,//保存当前动画的序号
 	wall:null,//保存所有已经停止下落的方块的二维数组
 	RN:20,//总行数
